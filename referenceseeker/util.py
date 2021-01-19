@@ -130,15 +130,15 @@ def test_binaries(config):
         sys.exit('ERROR: \'nucmer\' was not exeutable!')
 
     # test delta-filter
-    try:
-        sp.check_call(
-            ['delta-filter', '-h'],
-            env=config['env'],
-            stdout=sp.DEVNULL,
-            stderr=sp.DEVNULL
-        )
-    except FileNotFoundError:
-        sys.exit('ERROR: \'delta-filter\' was not found!')
+    #try:
+    #    sp.check_call(
+    #        ['delta-filter', '-h'],
+    #        env=config['env'],
+    #        stdout=sp.DEVNULL,
+    #        stderr=sp.DEVNULL
+    #    )
+    #except FileNotFoundError:
+    #    sys.exit('ERROR: \'delta-filter\' was not found!')
     #except:
     #    sys.exit('ERROR: \'delta-filter\' was not exeutable!')
 
