@@ -139,7 +139,7 @@ def test_binaries(config):
         )
     except FileNotFoundError:
         sys.exit('ERROR: \'delta-filter\' was not found!')
-    except:
-        sys.exit('ERROR: \'delta-filter\' was not exeutable!')
+    #except:
+    #    sys.exit('ERROR: \'delta-filter\' was not exeutable!')
 
     return
